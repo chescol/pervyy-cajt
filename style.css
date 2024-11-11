@@ -1,0 +1,98 @@
+*{
+    background-color: #007fff;
+}
+header{
+    display:flex ;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style-type:none;
+    text-transform: uppercase;
+}
+.logo{
+    position: relative;
+    left:50px;
+}
+.phone{
+    position: relative;
+    right:50px;
+    font-size: 42px;
+}
+a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #7f7f7f;
+}
+section{
+    display: flex;
+}
+.main{
+    position: relative;
+    left:720px;
+    color: #000000;
+}
+.mainimage{
+    position: relative;
+    left:925px;
+    top:250px;
+}
+.img1class{
+    width: 125%;
+    height: auto;
+}
+.animbutton{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 27px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    animation: bounce 2s infinite alternate;
+}
+@keyframes bounce{
+    0% {transform:translateY(0);}
+    100% {transform:translateY(-10px);}
+}
+.animbutton:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.1);
+}
+.name{
+    color: #ffffff;
+    font-size: 24px;
+}
+.webmaster{
+    color:#3f3f3f;
+    font-size: 21px;
+}
+.aboutme{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: Georgia;
+}
+.works{
+   color: #ffffff;
+   font-size: 25px;
+   font-family: Georgia;
+}
+.team{
+    color: #ffffff;
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+}
+.footer{
+    background-color: #3f3f3f;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-family: Georgia;
+    font-size: 17px;
+}
